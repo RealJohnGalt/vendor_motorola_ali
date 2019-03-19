@@ -15,6 +15,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/ali/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
 	vendor/motorola/ali/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
 	vendor/motorola/ali/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
+	vendor/motorola/ali/proprietary/framework/ims-common.jar:system/framework/ims-common.jar \
 	vendor/motorola/ali/proprietary/etc/perfservice.rc:system/etc/perfservice.rc \
 	vendor/motorola/ali/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
 	vendor/motorola/ali/proprietary/etc/permissions/com.motorola.camera2.xml:system/etc/permissions/com.motorola.camera2.xml \
@@ -23,6 +24,8 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/ali/proprietary/etc/permissions/privapp-permissions-com.android.hotwordenrollment.tgoogle.xml:system/etc/permissions/privapp-permissions-com.android.hotwordenrollment.tgoogle.xml \
 	vendor/motorola/ali/proprietary/etc/permissions/privapp-permissions-com.android.hotwordenrollment.xgoogle.xml:system/etc/permissions/privapp-permissions-com.android.hotwordenrollment.xgoogle.xml \
 	vendor/motorola/ali/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+	vendor/motorola/ali/proprietary/etc/permissions/privapp-permissions-org.codeaurora.ims.xml:system/etc/permissions/privapp-permissions-org.codeaurora.ims.xml \
+	vendor/motorola/ali/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
 	vendor/motorola/ali/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml
 
 PRODUCT_PACKAGES += \
