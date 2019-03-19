@@ -27,8 +27,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
 	CNEService \
-	ims \
 	datastatusnotification \
+	ims \
 	QtiTelephonyService \
 	HotwordEnrollmentOKGoogleCS47L35 \
 	HotwordEnrollmentTGoogleCS47L35 \
