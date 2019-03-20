@@ -15,7 +15,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/ali/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
 	vendor/motorola/ali/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
 	vendor/motorola/ali/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-	vendor/motorola/ali/proprietary/framework/ims-common.jar:system/framework/ims-common.jar \
 	vendor/motorola/ali/proprietary/etc/perfservice.rc:system/etc/perfservice.rc \
 	vendor/motorola/ali/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
 	vendor/motorola/ali/proprietary/etc/permissions/com.motorola.camera2.xml:system/etc/permissions/com.motorola.camera2.xml \
