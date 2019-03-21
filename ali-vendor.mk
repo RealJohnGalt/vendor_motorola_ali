@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/ali/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
 	vendor/motorola/ali/proprietary/etc/permissions/privapp-permissions-org.codeaurora.ims.xml:system/etc/permissions/privapp-permissions-org.codeaurora.ims.xml \
 	vendor/motorola/ali/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+	vendor/motorola/ali/proprietary/etc/permissions/privapp-permissions-com.android.sdm.plugins.sprintdm.xml:system/etc/permissions/privapp-permissions-com.android.sdm.plugins.sprintdm.xml \
 	vendor/motorola/ali/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml
 
 PRODUCT_PACKAGES += \
@@ -54,4 +55,4 @@ PRODUCT_PACKAGES += \
 	HotwordEnrollmentTGoogleCS47L35 \
 	HotwordEnrollmentXGoogleCS47L35 \
 	qcrilmsgtunnel \
-	ims-ext-common
+	SprintDM
