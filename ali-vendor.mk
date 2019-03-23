@@ -36,6 +36,8 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/ali/proprietary/etc/perfservice.rc:system/etc/perfservice.rc \
 	vendor/motorola/ali/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
 	vendor/motorola/ali/proprietary/etc/permissions/com.motorola.camera2.xml:system/etc/permissions/com.motorola.camera2.xml \
+	vendor/motorola/ali/proprietary/etc/permissions/com.motorola.camera2.denali.xml:system/etc/permissions/com.motorola.camera2.denali.xml \
+	vendor/motorola/ali/proprietary/etc/permissions/privapp-permissions-com.motorola.camera2.xml:system/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
 	vendor/motorola/ali/proprietary/etc/permissions/com.motorola.moto.xml:system/etc/permissions/com.motorola.moto.xml \
 	vendor/motorola/ali/proprietary/etc/permissions/privapp-permissions-com.android.hotwordenrollment.okgoogle.xml:system/etc/permissions/privapp-permissions-com.android.hotwordenrollment.okgoogle.xml \
 	vendor/motorola/ali/proprietary/etc/permissions/privapp-permissions-com.android.hotwordenrollment.tgoogle.xml:system/etc/permissions/privapp-permissions-com.android.hotwordenrollment.tgoogle.xml \
@@ -55,4 +57,5 @@ PRODUCT_PACKAGES += \
 	HotwordEnrollmentTGoogleCS47L35 \
 	HotwordEnrollmentXGoogleCS47L35 \
 	qcrilmsgtunnel \
+	MotCamera2 \
 	SprintDM
