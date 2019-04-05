@@ -1,4 +1,8 @@
 PRODUCT_COPY_FILES += \
+	vendor/motorola/ali/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
+	vendor/motorola/ali/proprietary/lib/libdmengine.so:system/priv-app/DMService/lib/arm/libdmengine.so \
+	vendor/motorola/ali/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
+	vendor/motorola/ali/proprietary/lib/libdmjavaplugin.so:system/priv-app/DMSservice/lib/arm/libdmjavaplugin.so \
 	vendor/motorola/ali/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
 	vendor/motorola/ali/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
 	vendor/motorola/ali/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
@@ -45,6 +49,11 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/ali/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
 	vendor/motorola/ali/proprietary/etc/permissions/privapp-permissions-org.codeaurora.ims.xml:system/etc/permissions/privapp-permissions-org.codeaurora.ims.xml \
 	vendor/motorola/ali/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+	vendor/motorola/ali/proprietary/etc/permissions/com.motorola.omadm.service.xml:system/etc/permissions/com.motorola.omadm.service.xml \
+	vendor/motorola/ali/proprietary/etc/permissions/privapp-permissions-com.motorola.omadm.service.xml:system/etc/permissions/privapp-permissions-com.motorola.omadm.service.xml \
+	vendor/motorola/ali/proprietary/etc/permissions/privapp-permissions-com.motorola.omadm.sprint.xml:system/etc/permissions/privapp-permissions-com.motorola.omadm.sprint.xml \
+	vendor/motorola/ali/proprietary/etc/permissions/privapp-permissions-com.motorola.omadm.vzw.xml:system/etc/permissions/privapp-permissions-com.motorola.omadm.vzw.xml \
+	vendor/motorola/ali/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/permissions/whitelist_com.android.omadm.service.xml \
 	vendor/motorola/ali/proprietary/etc/permissions/privapp-permissions-com.android.sdm.plugins.sprintdm.xml:system/etc/permissions/privapp-permissions-com.android.sdm.plugins.sprintdm.xml \
 	vendor/motorola/ali/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml
 
@@ -58,4 +67,9 @@ PRODUCT_PACKAGES += \
 	HotwordEnrollmentXGoogleCS47L35 \
 	qcrilmsgtunnel \
 	MotCamera2 \
-	SprintDM
+	SprintDM \
+	ConnMOStub \
+	DCMOStub \
+	DMService \
+	DiagMon \
+	HiddenMenuLight
