@@ -67,7 +67,6 @@ PRODUCT_PACKAGES += \
 	HotwordEnrollmentXGoogleCS47L35 \
 	qcrilmsgtunnel \
 	MotCamera2 \
-	SprintDM \
 	ConnMOStub \
 	DCMOStub \
 	DMService \
